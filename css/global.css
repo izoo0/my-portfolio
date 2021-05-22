@@ -1,5 +1,5 @@
 .elevation-4 {
-    box-shadow: 0.5px 0.5px 20px 0.5px gold;
+    box-shadow: 0.5px 0.5px 20px 0.5px;
 }
 
 .btn-red {
@@ -28,4 +28,24 @@
 
 .btn:focus {
     box-shadow: none;
+}
+
+.progress {
+    height: 2.5vh;
+}
+
+.progress-bars {
+    background-image: linear-gradient(to right, rgb(12, 12, 122), gold);
+}
+
+.progress-bars-3 {
+    background-image: linear-gradient(to right, rgb(4, 39, 128), rgb(9, 128, 179));
+}
+
+.progress-bars-2 {
+    background-image: linear-gradient(to right, RED, yellow);
+}
+
+.progress-bars-1 {
+    background-image: linear-gradient(to right, #ac2895, #c11b8a, #d20c7c, #e0056d, #eb125d);
 }

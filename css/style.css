@@ -261,5 +261,20 @@ nav {
 
 /* skills start */
 
+.skill-title {
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#heading {
+    border-bottom: 3px groove;
+}
+
+.h7 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 
 /* skills end */
