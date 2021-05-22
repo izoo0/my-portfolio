@@ -1,0 +1,31 @@
+.elevation-4 {
+    box-shadow: 0.5px 0.5px 20px 0.5px gold;
+}
+
+.btn-red {
+    background-color: rgb(8, 8, 8);
+    width: 65%;
+    border-radius: 10px;
+    color: gold;
+}
+
+.btn-red:hover {
+    color: gold;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.btn-defaults {
+    color: gold;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 65%;
+}
+
+.btn-defaults:hover {
+    color: gold;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
