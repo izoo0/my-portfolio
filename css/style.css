@@ -278,3 +278,108 @@ nav {
 
 
 /* skills end */
+
+
+/* portfolio start */
+
+.project-area .button-group button {
+    background: transparent;
+    border: 1px solid goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* .project-area .button-group button+button {
+    padding-left: 3rem;
+} */
+
+.project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px;
+}
+
+.project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* portfolio end */
+
+
+/* clientel */
+
+.client {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-top: 3em;
+}
+
+.client-para {
+    text-align: left;
+}
+
+.client-inf {
+    font-family: monospace;
+}
+
+
+/* clientel */
+
+
+/* contact section */
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+/* contact section */
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: rgb(233, 227, 227);
+    background-color: rgb(5, 5, 5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.footer-links a {
+    color: rgb(233, 227, 227);
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 2px;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.box {
+    text-align: center;
+    width: 50px;
+    border-radius: 50px;
+}
+
+
+/* footer */
